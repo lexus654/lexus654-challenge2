@@ -1,0 +1,175 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+  * a {
+    text-decoration: none;
+    list-style: none;
+    color: white; }
+  * li {
+    list-style: none; }
+
+body nav {
+  padding: 0 4rem;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  align-items: center; }
+  body nav div {
+    padding: 10px; }
+  body nav ul {
+    display: flex; }
+    body nav ul li {
+      list-style-type: none;
+      padding: 10px;
+      margin: 0px 30px; }
+      body nav ul li a {
+        text-decoration: none;
+        color: black; }
+
+body main .first-section {
+  padding: 0 4rem;
+  margin-top: 50px;
+  display: flex; }
+  body main .first-section .text1 #email {
+    width: 300px;
+    height: 40px;
+    padding: 10px;
+    border-radius: 5%;
+    margin-right: 10px; }
+  body main .first-section .text1 #like {
+    width: 210px;
+    height: 40px;
+    background-color: #3065f8;
+    color: white;
+    border: none; }
+  body main .first-section .text1 h3 {
+    font-size: 2.5rem;
+    margin-bottom: 1.2rem; }
+  body main .first-section .text1 p {
+    font-size: 1.2rem;
+    margin-bottom: 1.2rem; }
+  body main .first-section .img1 {
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    body main .first-section .img1 img {
+      width: 70%; }
+
+main .big-curve {
+  padding: 0;
+  margin-top: 50px;
+  width: 100%;
+  height: 200px;
+  background: url(/images/bg-curve-mobile.svg) no-repeat center center/cover; }
+
+main .second-section {
+  padding: 0 4rem;
+  padding-bottom: 5rem;
+  background: #f6f6fe;
+  display: flex; }
+  main .second-section .text2 h3 {
+    font-size: 2.5rem;
+    margin-bottom: 1.2rem; }
+  main .second-section .text2 p {
+    font-size: 1.2rem;
+    margin-bottom: 1.2rem; }
+  main .second-section .text2 .comment-box {
+    background: white;
+    box-shadow: 10px 10px 50px grey;
+    padding: 40px;
+    width: 500px;
+    height: 350px;
+    border-radius: 5%; }
+    main .second-section .text2 .comment-box img {
+      width: 2rem;
+      margin-bottom: 1.2rem; }
+    main .second-section .text2 .comment-box p {
+      font-size: 1.4rem; }
+    main .second-section .text2 .comment-box .img-holder {
+      display: flex;
+      flex-direction: row; }
+      main .second-section .text2 .comment-box .img-holder img {
+        border-radius: 50%;
+        width: 50px;
+        margin-right: 1.3rem; }
+      main .second-section .text2 .comment-box .img-holder .text-holder {
+        display: flex;
+        flex-direction: column; }
+        main .second-section .text2 .comment-box .img-holder .text-holder .bold {
+          margin-bottom: 0; }
+  main .second-section .img2 {
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    main .second-section .img2 img {
+      width: 70%; }
+
+main .third-section {
+  padding: 2rem 4rem;
+  background-color: #585989;
+  display: flex; }
+  main .third-section .text3 h3 {
+    color: white;
+    font-size: 2.5rem;
+    margin-bottom: 1.2rem; }
+  main .third-section .text3 p {
+    font-size: 1.2rem;
+    margin-bottom: 1.2rem;
+    color: white; }
+  main .third-section .form {
+    display: flex;
+    flex-direction: column;
+    margin-left: 90px;
+    padding-left: 100px; }
+    main .third-section .form #email {
+      width: 450px;
+      height: 40px;
+      padding: 10px;
+      border-radius: 5%;
+      margin-right: 10px;
+      display: block;
+      margin-bottom: 10px; }
+    main .third-section .form #like {
+      width: 210px;
+      height: 40px;
+      background-color: #3065f8;
+      color: white;
+      border: none; }
+
+main li {
+  margin: 10px 10px; }
+
+main i {
+  color: white; }
+
+main .fourth-section {
+  padding: 4rem 4rem;
+  background-color: #070439;
+  display: flex;
+  flex-direction: column; }
+  main .fourth-section .bottom-img {
+    margin-bottom: 10px; }
+    main .fourth-section .bottom-img .invert {
+      filter: invert(100%);
+      width: 166px;
+      height: 49px; }
+  main .fourth-section .list {
+    display: flex;
+    justify-content: space-between; }
+    main .fourth-section .list .first-list {
+      display: flex;
+      flex-direction: column;
+      color: white; }
+      main .fourth-section .list .first-list img {
+        width: 10px;
+        height: 10px; }
+    main .fourth-section .list .fourth-list {
+      display: flex;
+      flex-direction: row; }
+      main .fourth-section .list .fourth-list div i {
+        margin: 0px 30px;
+        border: white solid 1px;
+        border-radius: 50%;
+        padding: 20px;
+        font-size: 1.5rem; }
