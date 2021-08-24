@@ -71,7 +71,7 @@ main .big-curve {
   margin-top: 50px;
   width: 100%;
   height: 200px;
-  background: url(/images/bg-curve-mobile.svg) no-repeat center center/cover; }
+  background: url(images/bg-curve-mobile.svg) no-repeat center center/cover; }
 
 main .second-section {
   padding: 0 4rem;
@@ -282,7 +282,7 @@ footer {
     margin-top: 50px;
     width: 100%;
     height: 50px;
-    background: url(/images/bg-curve-mobile.svg) no-repeat center center/cover; }
+    background: url(images/bg-curve-mobile.svg) no-repeat center center/cover; }
   main .second-section {
     padding: 0 2rem;
     padding-bottom: 5rem;
